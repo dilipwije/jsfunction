@@ -1,0 +1,42 @@
+/*
+# Javascript form validation.
+# Javascript function.
+# Javascript data store as object using live server and json object.
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+section.main-wrapper{
+    width: 960px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.register-form {
+    width: 400px;
+    height: 400px;
+    background-color: lightgray;
+    border: 2px solid #686464;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
+.register-form h2.form-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-align: center;
+}
+.register-form .input-filed input{
+    width: 100%;
+    margin-bottom: 20px;
+    height: 40px;
+    text-align: center;
+}
+
+.register-form .submit-register input{
+    background: #1187e4;
+}

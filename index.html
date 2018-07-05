@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <section class="main-wrapper">
+        <div class="register-form">
+            <h2 class="form-title">
+                Register
+            </h2>
+            <form name="registerForm" action="main.js" onsubmit="return validation()" method="POST">
+                <div class="input-filed full-name">
+                    <input type="text" name="fullName" placeholder="Full Name">
+                </div>
+                <div class="input-filed age">
+                    <input type="text" name="age" placeholder="Age">
+                </div>
+                <div class="input-filed submit-register">
+                    <input type="submit" value="Register">
+                </div>
+                <div class="alertmessage"></div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+<script src="main.js" ></script>
+</html>
